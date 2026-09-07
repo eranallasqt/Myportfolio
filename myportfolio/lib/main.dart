@@ -97,6 +97,18 @@ class AboutScreen extends StatelessWidget {
           padding: EdgeInsets.all(30),
           child: Column(
             children: [
+              // =========================
+              // PROFILE IMAGE
+              // =========================
+              Image.asset(
+                'assets/images/eso.jpg',
+                width: 200,
+                height: 200,
+                fit: BoxFit.cover,
+              ),
+
+              SizedBox(height: 25),
+
               Text(
                 'About Me',
                 style: TextStyle(
